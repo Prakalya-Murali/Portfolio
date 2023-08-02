@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta  name="viewport" content="width=device-width, intial-scale=0.1">
+        <title>Personal Porfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/5c0a139fe0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/PRAKALYA (1).png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>   
+                <li><a href="#about">About</a></li>
+                <li><a href="#intern">Interships</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p><span>B.E-COMPUTER SCIENCE AND ENGINEERING</span></p>
+            <h1>Hi, I'm Prakalya <span></span></h1><br>
+            <h1>Murali from Tirupur<span></span></h1>
+        </div>
+    </div>
+</div>
+<!-------about--------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/img1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Myself Prakalya from Tiruppur.I'm currently persuing my undergraduate degree in KPR Institution of Engineering and technology with Computer Science as my prior field and I also have an agregate of 8.8 until 5th Semester. I am versatile person and can adopt myself to any situation.And I'm also a dedicated person and can complete the assingned works on time.I also have strong desire to learn and inovate.</p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('interest')">Interest</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span><b>JAVA</b></span><br>Programmer</li>
+                        <li><span><b>HTML AND CSS</b></span><br>Frontend Designer</li>
+                        <li><span><b>Python basics</b></span><br>Programming concepts</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="interest">
+                    <ul>
+                        <li><span><b>Java</b></span><br>Programming</li>
+                        <li><span><b>Cloud Computing</b></span><br>Amazon Web Services</li>
+                        <li><span><b>Frontend Designing</b></span><br>HTML AND CSS </li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span><b>KPR Institution of Engineering and Technology</b></span><br><b>B.E Computer Science and Engineering<b><br> CGPA-8.81 </li>
+                        <li><span><b>Amrita Vidyalayam Matric Higher Secondary School</b></span><br><b>SSLC-91.2%</b><br></li>
+                        <li><span><b>Kids Club Matric Higher Secondary School</b></span><br><b>HSC-79%</b></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------internship------------->
+<div id="intern">
+    <div class="container">
+        <h1 class="sub-title">My Internship Programs</h1>
+        <div class="intern-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h1>TechVolt Software Pvt.Ltd</h1>
+                <p>I obtained expertise of FrontEnd technologies like HTML, CSS, BootStrap, and Javascript for site design at TechVolt Software Pvt.Ltd, a start-up level software development and digital marketing company. </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-robot"></i>
+                <h1>Hackup Technology</h1>
+                <p>Hackup Technology is founded by competent cyber security professionals.This internship programme focuses on cyber security, and they educated us about pentesting and earning bug bounties from vulnerable websites.</p>  </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-seedling"></i>
+                <h1>Sprout Knowledge Solutions</h1>
+                <p>Sprout is concerned with data science and analysis.Here, I got to know about prediction models based on data analysis and machine learning.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-aws"></i>
+                <h1>RedSys Technologies</h1>
+                <p>RedSysTech's internship program focuses on the cloud computing provider Amazon Web Service.I had a knowlege about the services like EC2,S3,IAM,Elastic Beanstalk etc in AWS. </p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!------------project------------->
+<div id="project">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="image/picture.jpg">
+                <div class="layer">
+                    <h3>Trip Duration Prediction</h3>
+                    <p>Predict the duration of a trip based on the kilometer</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>  
+            </div>
+            <div class="project">
+                <img src="image/work-2.png">
+                <div class="layer">
+                <h3>Resort Stay Website</h3>
+                <p>To book room in the resort and has the information of booked rooms,cancelled rooms,empty rooms</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="project">
+                <img src="image/work-1.png">
+                <div class="layer">
+                <h3>Serverless Webpage</h3>
+                <p>Serverless webpage on Amazon Web Service Platform</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+            </div>
+                
+        </div>
+    </div>
+</div>
+<!-----------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1><br>
+                <p><i class="fa-solid fa-paper-plane"></i>prakalya.msr@gmail.com</p>
+                <br>
+                <p><i class="fa-solid fa-phone"></i>9566646307</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/_.life_seeker_?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>  
+                    <a href="https://www.linkedin.com/in/prakalya-m-516421241/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=" "><i class="fa-brands fa-hackerrank"></i></a>
+                </div>  
+                <a href="image/CV.pdf" download class="btn btn2"><i class="fa-solid fa-download"></i> Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Prakalya<i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx69uzLI-H5YMl4Gg6HtVXza8TC4x9eeTYKzPupjbljNy3PbcvxAGFJxiCHAftjt-bOwQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+   const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
